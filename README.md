@@ -178,7 +178,7 @@
 
 - [Seewo-DesktopAnnotation-Replacement](https://github.com/EmerMine/Seewo-DesktopAnnotation-Replacement)
 
-  **技术栈**：C#（.NET）  
+  **技术栈**：Python、PySide6 
   **功能**：将希沃桌面 2.0+ 自带的桌面批注程序替换为第三方批注软件。  
   **特点**：直接替换批注文件，提供参数用于设置和调试。  
   **许可证**：GPL-3.0
