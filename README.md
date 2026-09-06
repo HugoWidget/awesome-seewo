@@ -28,7 +28,8 @@
 
 - **HugoAura 相关项目**
 
-  希沃管家注入式优化方案，功能极其丰富，请自行在 GitHub 上查找。
+  希沃管家注入式优化方案，功能极其丰富，[主仓库](https://github.com/HugoAura/Seewo-HugoAura) 停止开发  
+  当前活跃分支：[blingbling-bow](https://github.com/blingbling-bow/HugoAura-Enhanced)
 
 - **SWToolkit 相关项目**
 
@@ -178,7 +179,7 @@
 
 - [Seewo-DesktopAnnotation-Replacement](https://github.com/EmerMine/Seewo-DesktopAnnotation-Replacement)
 
-  **技术栈**：Python、PySide6 
+  **技术栈**：Python、PySide6  
   **功能**：将希沃桌面 2.0+ 自带的桌面批注程序替换为第三方批注软件。  
   **特点**：直接替换批注文件，提供参数用于设置和调试。  
   **许可证**：GPL-3.0
