@@ -36,6 +36,13 @@
   **特点**：另一个独立的 C/C++ 希沃优化方案，使用便捷，相关资源暂未开放。  
   **许可证**：MIT
 
+- [HugoPass-Install](https://github.com/rabbits0209/HugoPass-Install)
+
+  **技术栈**：Python、Batchfile  
+  **功能**：完全离线的希沃管家管理员密码绕过安装器。  
+  **特点**：支持 GUI/CLI，自动尝试卸载希沃文件系统过滤驱动并结束相关进程。  
+  **许可证**：未知
+
 - [seewo_jailbreak](https://github.com/CatMe0w/seewo_jailbreak)
 
   **技术栈**：C / Python  
@@ -184,13 +191,19 @@
   **特点**：直接替换批注文件，提供参数用于设置和调试。  
   **许可证**：GPL-3.0
 
+- [seewo-img-down](https://github.com/yuyudifiesh/seewo-img-down)
+
+  **技术栈**：HTML  
+  **功能**：希沃系统镜像下载站，提供 MT61A、MT21、MT23 等机型的系统镜像。  
+  **许可证**：未知
+
 ## 账号与登录
 
 - [SeewoAutoLogin（独立版）](https://github.com/Pro-Qin/SeewoAutoLogin)
 
-  **技术栈**：C# (.NET 8, WPF)、WebView2等  
-  **功能**：多希沃账号管理，本地 SSO 网关，账号列表轮换，自动刷新令牌，密码保护，托盘常驻。  
-  **特点**：独立安装包；数据使用 DPAPI 加密。  
+  **技术栈**：C# (.NET 8, WPF)、WebView2、Inno Setup  
+  **功能**：多希沃账号管理（密码/扫码登录）、本地 SSO 网关、账号列表轮换、自动刷新令牌、一键切换账号。  
+  **特点**：独立安装包；账号密码与扫码令牌使用 DPAPI 加密。  
   **许可证**：GPL-3.0
 
 - [SeewoAutoLogin（ICC-CE 插件版）](https://github.com/CJKmkp/SeewoAutoLogin)
@@ -215,6 +228,13 @@
   **许可证**：GPL-3.0
 
 ## 课件管理
+
+- [WebEasiNote](https://github.com/PANDAJSR/WebEasiNote)
+
+  **技术栈**：React 18、TypeScript 5、Vite 5、Electron  
+  **功能**：第三方 ENBX 课件查看器，在浏览器中解析和查看希沃白板课件内容，支持 Electron 桌面版。  
+  **特点**：纯 Web 技术实现；支持 Windows/macOS/Linux 桌面打包。  
+  **许可证**：AGPL-3.0
 
 - [ENAnalyzer](https://github.com/howdy213/ENAnalyzer)
 
