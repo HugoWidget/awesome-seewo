@@ -184,6 +184,13 @@
   **特点**：可挂载为系统 WebDAV 目录；包含命令行工具用于自动化。  
   **许可证**：GPL-3.0
 
+- [EasiCamera-patch](https://github.com/hongkevin233/EasiCamera-patch)
+
+  **技术栈**：PowerShell、Python等  
+  **功能**：解除希沃视频展台的设备白名单校验，通过 IL 补丁与 AkVCam 虚拟摄像头桥接，让第三方 USB 摄像头/展台在 DirectShow 下可用。  
+  **特点**：ffmpeg → AkVCam 零拷贝管道，无中间文件、无二次编码。  
+  **许可证**：AGPL-3.0
+
 - [Seewo-DesktopAnnotation-Replacement](https://github.com/EmerMine/Seewo-DesktopAnnotation-Replacement)
 
   **技术栈**：Python、PySide6  
