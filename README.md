@@ -257,6 +257,13 @@
   **特点**：支持按账户分文件夹输出，后台静默运行（系统托盘）。  
   **许可证**：GPL-3.0
 
+- [seewo-enbx-toolkit](https://github.com/xcw080720/seewo-enbx-toolkit)
+
+  **技术栈**：Python、tkinter等  
+  **功能**：驱动 EasiNote 批量导入 pptx 生成 enbx 文件。  
+  **特点**：支持 GUI/CLI、断点续跑、多账户自动探测；只读希沃课件目录，不修改希沃程序或原始数据。  
+  **许可证**：MIT
+
 ## 教程与指南
 
 - [seewo-tutorial-web](https://github.com/seewo-geek/seewo-tutorial-web)
