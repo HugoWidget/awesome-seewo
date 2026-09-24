@@ -161,6 +161,13 @@
   **特点**：底层拦截，同时支持 DirectShow 和 Media Foundation；纯本地运行，无网络请求。  
   **许可证**：MIT
 
+- [UnSeewo](https://github.com/XuexGao/UnSeewo)
+
+  **技术栈**：C、Win32 API、DLL 注入等 
+  **功能**：通过跨架构 Shellcode 注入修改目标窗口显示亲和性，实现防截图/防录屏；支持 Finder Tool 动态捕获、白名单/全局模式、穿透/遮蔽模式、老板键。  
+  **特点**：纯 C 编写，原生 Win32 API。  
+  **许可证**：未知
+
 - [StarReminder](https://github.com/Vistaminc/StarReminder)
 
   **技术栈**：C# (.NET 8, WPF)  
@@ -267,8 +274,6 @@
 - [智教联盟站内辅助工具索引](https://blog.edicdn.eu.org/posts/smart-teach-tools.html)
 - [Awesome IWB - 交互式白板软件合集](https://aiwb.smart-teach.cn/)
 - [Awesome IWB - GitHub 项目版本](https://github.com/Awesome-Iwb/Awesome-Iwb)
-
----
 
 ## 贡献
 
