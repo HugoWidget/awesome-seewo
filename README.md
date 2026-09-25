@@ -161,7 +161,7 @@
   **特点**：底层拦截，同时支持 DirectShow 和 Media Foundation；纯本地运行，无网络请求。  
   **许可证**：MIT
 
-- [UnSeewo](https://github.com/XuexGao/UnSeewo)
+- [NoMoreCapture](https://github.com/lilith-is-all-you-need/NoMoreCapture) / [UnSeewo](https://github.com/XuexGao/UnSeewo)
 
   **技术栈**：C、Win32 API、DLL 注入等 
   **功能**：通过跨架构 Shellcode 注入修改目标窗口显示亲和性，实现防截图/防录屏；支持 Finder Tool 动态捕获、白名单/全局模式、穿透/遮蔽模式、老板键。  
