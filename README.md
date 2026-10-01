@@ -92,6 +92,13 @@
   **特点**：动态解除冰点；仅适用于 Win10 x64 以上环境。  
   **许可证**：AGPL-3.0
 
+- [Seewo-Settings](https://github.com/XuexGao/Seewo-Settings)
+
+  **技术栈**：C#（WinUI 3）、C++17、PowerShell  
+  **功能**：WinUI 3 桌面工具集，包含虚拟摄像头、摄像头/麦克风调用提醒、防截屏保护、希沃软件管控、定时任务、一键隐藏窗口。  
+  **特点**：自包含发行，无需额外运行时。  
+  **许可证**：MIT
+
 ## 白板激活
 
 - [sw_en3_keygen](https://github.com/LIGHTENINGXGAMES/sw_en3_keygen)
@@ -211,6 +218,20 @@
   **功能**：希沃系统镜像下载站，提供 MT61A、MT21、MT23 等机型的系统镜像。  
   **许可证**：未知
 
+- [DeviceTrayMgr](https://github.com/howdy213/DeviceTrayMgr)
+
+  **技术栈**：C++  
+  **功能**：通过 `DeviceOverrides` 注册表为指定 USB 设备写入 `Removable=1`，禁用「安全删除硬件并弹出媒体」托盘菜单中的对应选项。  
+  **特点**：命令行菜单操作；支持枚举 USB 设备、网络适配器类 USB 设备；支持管理已设置的注册表项。  
+  **许可证**：Apache-2.0
+
+- [DeviceKeeper](https://github.com/Levent628/DeviceKeeper)
+
+  **技术栈**：JavaScript、Node.js、HTML、C#、Batchfile  
+  **功能**：修改 USB 设备 `Capabilities` 注册表值，把内置 USB 网卡、USB 集线器等从任务栏「安全删除硬件」中隐藏，并持续守护防止系统写回。  
+  **特点**：便携自带 `node.exe`；本地 Web UI；5 秒守护循环。  
+  **许可证**：MIT
+
 ## 账号与登录
 
 - [SeewoAutoLogin（独立版）](https://github.com/Pro-Qin/SeewoAutoLogin)
@@ -272,6 +293,13 @@
   **功能**：电教委入门指南网页版，面向学校电教管理员的希沃设备使用与维护教程。  
   **特点**：由“希沃售后业绩冲击部”维护，电教委入门指南网站的源码仓库。  
   **许可证**：CC BY-NC-SA 4.0
+
+- [SeewoOperationGuide-Online](https://github.com/baldi233/SeewoOperationGuide-Online)
+
+  **技术栈**：HTML、CSS、JavaScript  
+  **功能**：搬运 / 存档希沃 Android 系统「操作指南」应用内的内容，提供在线查看。  
+  **特点**：内容原样搬运；GitHub Pages 部署。  
+  **许可证**：未知
 
 ## 更多合集
 
