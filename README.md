@@ -170,7 +170,7 @@
 
 - [NoMoreCapture](https://github.com/lilith-is-all-you-need/NoMoreCapture) / [UnSeewo](https://github.com/XuexGao/UnSeewo)
 
-  **技术栈**：C、Win32 API、DLL 注入等 
+  **技术栈**：C、Win32 API、DLL 注入等  
   **功能**：通过跨架构 Shellcode 注入修改目标窗口显示亲和性，实现防截图/防录屏；支持 Finder Tool 动态捕获、白名单/全局模式、穿透/遮蔽模式、老板键。  
   **特点**：纯 C 编写，原生 Win32 API。  
   **许可证**：未知
@@ -232,6 +232,13 @@
   **特点**：便携自带 `node.exe`；本地 Web UI；5 秒守护循环。  
   **许可证**：MIT
 
+- [seewo-badapple](https://github.com/POPK406/seewo-badapple)
+
+  **技术栈**：Python、Batchfile  
+  **功能**：将 `BADAPPLE.mp4` 离线转换为笔画流，在希沃 EasiNote5 白板上以笔迹形式实时重放，并同步音轨。  
+  **特点**：支持 Win32 `SendInput` 软件鼠标注入（无需外设）与 CH9326 串口透传；含 tkinter 控台、画布标定、离线可视化。  
+  **许可证**：MIT
+
 ## 账号与登录
 
 - [SeewoAutoLogin（独立版）](https://github.com/Pro-Qin/SeewoAutoLogin)
@@ -284,6 +291,13 @@
   **功能**：驱动 EasiNote 批量导入 pptx 生成 enbx 文件。  
   **特点**：支持 GUI/CLI、断点续跑、多账户自动探测；只读希沃课件目录，不修改希沃程序或原始数据。  
   **许可证**：MIT
+
+- [cracked-ppt-helper](https://github.com/wcrax/cracked-ppt-helper)
+
+  **技术栈**：C#  
+  **功能**：破解并改进希沃 PPT 助手（Seewo PPT Helper）。  
+  **特点**：暂无。  
+  **许可证**：未知
 
 ## 教程与指南
 
