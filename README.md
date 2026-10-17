@@ -16,6 +16,7 @@
 - [白板激活](#白板激活)
 - [定制与美化](#定制与美化)
 - [监控与反监控](#监控与反监控)
+- [设备控制与硬件](#设备控制与硬件)
 - [工具与辅助](#工具与辅助)
 - [账号与登录](#账号与登录)
 - [课件管理](#课件管理)
@@ -182,7 +183,14 @@
   **特点**：从设备层面检测，现代化 WPF 界面。  
   **许可证**：MIT
 
-## 工具与辅助
+## 设备控制与硬件
+
+- [SeewoMCUController](https://github.com/CreeperAWA/SeewoMCUController)
+
+  **技术栈**：C#（.NET 8，Native AOT）  
+  **功能**：Windows CLI/TUI 工具，通过 HID 连接并控制适用 Remote6 的希沃 OPS 与安卓板控制单元（不支持使用 UDI 的机型）；支持音量/声音模式/显示模式/通道切换、Android 锁屏与口令应答、设备信息查询、系统动作和原始帧发送。  
+  **特点**：不修改系统配置、不后台常驻；支持 HID 设备发现、握手、帧模式自动探测、自动应答和重连。锁屏功能会触发 Android 屏幕锁，使用时需谨慎。  
+  **许可证**：MIT
 
 - [SeewoPenTweaker](https://github.com/hxabcd/SeewoPenTweaker)
 
@@ -191,32 +199,12 @@
   **特点**：低体积、低占用、启动快。  
   **许可证**：未知
 
-- [SeewoPan](https://github.com/PANDAJSR/SeewoPan)
-
-  **技术栈**：Flutter、Node.js  
-  **功能**：希沃品课云盘第三方客户端，支持文件管理、上传下载队列、文件预览、分享链接。  
-  **特点**：可挂载为系统 WebDAV 目录；包含命令行工具用于自动化。  
-  **许可证**：GPL-3.0
-
 - [EasiCamera-patch](https://github.com/hongkevin233/EasiCamera-patch)
 
   **技术栈**：PowerShell、Python等  
   **功能**：解除希沃视频展台的设备白名单校验，通过 IL 补丁与 AkVCam 虚拟摄像头桥接，让第三方 USB 摄像头/展台在 DirectShow 下可用。  
   **特点**：ffmpeg → AkVCam 零拷贝管道，无中间文件、无二次编码。  
   **许可证**：AGPL-3.0
-
-- [Seewo-DesktopAnnotation-Replacement](https://github.com/EmerMine/Seewo-DesktopAnnotation-Replacement)
-
-  **技术栈**：Python、PySide6  
-  **功能**：将希沃桌面 2.0+ 自带的桌面批注程序替换为第三方批注软件。  
-  **特点**：直接替换批注文件，提供参数用于设置和调试。  
-  **许可证**：GPL-3.0
-
-- [seewo-img-down](https://github.com/yuyudifiesh/seewo-img-down)
-
-  **技术栈**：HTML  
-  **功能**：希沃系统镜像下载站，提供 MT61A、MT21、MT23 等机型的系统镜像。  
-  **许可证**：未知
 
 - [DeviceTrayMgr](https://github.com/howdy213/DeviceTrayMgr)
 
@@ -231,6 +219,28 @@
   **功能**：修改 USB 设备 `Capabilities` 注册表值，把内置 USB 网卡、USB 集线器等从任务栏「安全删除硬件」中隐藏，并持续守护防止系统写回。  
   **特点**：便携自带 `node.exe`；本地 Web UI；5 秒守护循环。  
   **许可证**：MIT
+
+## 工具与辅助
+
+- [SeewoPan](https://github.com/PANDAJSR/SeewoPan)
+
+  **技术栈**：Flutter、Node.js  
+  **功能**：希沃品课云盘第三方客户端，支持文件管理、上传下载队列、文件预览、分享链接。  
+  **特点**：可挂载为系统 WebDAV 目录；包含命令行工具用于自动化。  
+  **许可证**：GPL-3.0
+
+- [Seewo-DesktopAnnotation-Replacement](https://github.com/EmerMine/Seewo-DesktopAnnotation-Replacement)
+
+  **技术栈**：Python、PySide6  
+  **功能**：将希沃桌面 2.0+ 自带的桌面批注程序替换为第三方批注软件。  
+  **特点**：直接替换批注文件，提供参数用于设置和调试。  
+  **许可证**：GPL-3.0
+
+- [seewo-img-down](https://github.com/yuyudifiesh/seewo-img-down)
+
+  **技术栈**：HTML  
+  **功能**：希沃系统镜像下载站，提供 MT61A、MT21、MT23 等机型的系统镜像。  
+  **许可证**：未知
 
 - [seewo-badapple](https://github.com/POPK406/seewo-badapple)
 
@@ -290,6 +300,13 @@
   **技术栈**：Python、tkinter等  
   **功能**：驱动 EasiNote 批量导入 pptx 生成 enbx 文件。  
   **特点**：支持 GUI/CLI、断点续跑、多账户自动探测；只读希沃课件目录，不修改希沃程序或原始数据。  
+  **许可证**：MIT
+
+- [seewo-ppt-factory](https://github.com/Awen-xin/seewo-ppt-factory)
+
+  **技术栈**：Python、PowerShell、Batchfile  
+  **功能**：把「简报 JSON」端到端做成可上云的希沃白板原生课件（.enbx），覆盖落稿、插教学视频、分组、注动效、发布上云和逐页核验。  
+  **特点**：补齐官方技能缺少的像素坐标版式、插视频、动效和副本治理；依赖官方 `seewo-easinote-assistant-skill` 与已登录的希沃白板客户端；发布前扫描云端同名旧副本并选择性清理，避免副本堆积。  
   **许可证**：MIT
 
 - [cracked-ppt-helper](https://github.com/wcrax/cracked-ppt-helper)
