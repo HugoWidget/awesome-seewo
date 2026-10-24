@@ -30,7 +30,9 @@
 - **HugoAura 相关项目**
 
   希沃管家注入式优化方案，功能极其丰富，[主仓库](https://github.com/HugoAura/Seewo-HugoAura) 停止开发  
-  当前活跃分支：[blingbling-bow](https://github.com/blingbling-bow/HugoAura-Enhanced)
+  ![Stars](https://img.shields.io/github/stars/HugoAura/Seewo-HugoAura?style=flat-square) ![Last Commit](https://img.shields.io/github/last-commit/HugoAura/Seewo-HugoAura?style=flat-square)  
+  当前活跃分支：[blingbling-bow](https://github.com/blingbling-bow/HugoAura-Enhanced)  
+  ![Stars](https://img.shields.io/github/stars/blingbling-bow/HugoAura-Enhanced?style=flat-square) ![Last Commit](https://img.shields.io/github/last-commit/blingbling-bow/HugoAura-Enhanced?style=flat-square)
 
 - **SWToolkit 相关项目**
 
@@ -39,6 +41,7 @@
 
 - [HugoPass-Install](https://github.com/rabbits0209/HugoPass-Install)
 
+  ![Stars](https://img.shields.io/github/stars/rabbits0209/HugoPass-Install?style=flat-square) ![Last Commit](https://img.shields.io/github/last-commit/rabbits0209/HugoPass-Install?style=flat-square)  
   **技术栈**：Python、Batchfile  
   **功能**：完全离线的希沃管家管理员密码绕过安装器。  
   **特点**：支持 GUI/CLI，自动尝试卸载希沃文件系统过滤驱动并结束相关进程。  
@@ -46,6 +49,7 @@
 
 - [seewo_jailbreak](https://github.com/CatMe0w/seewo_jailbreak)
 
+  ![Stars](https://img.shields.io/github/stars/CatMe0w/seewo_jailbreak?style=flat-square) ![Last Commit](https://img.shields.io/github/last-commit/CatMe0w/seewo_jailbreak?style=flat-square)  
   **技术栈**：C / Python  
   **功能**：通过修补希沃管家 `bind_zmodule.dll`，绕过密码验证。  
   **特点**：无需破解密码，直接修改验证逻辑。  
@@ -53,6 +57,7 @@
 
 - [bruteforce_passwordv3](https://github.com/CatMe0w/bruteforce_passwordv3)
 
+  ![Stars](https://img.shields.io/github/stars/CatMe0w/bruteforce_passwordv3?style=flat-square) ![Last Commit](https://img.shields.io/github/last-commit/CatMe0w/bruteforce_passwordv3?style=flat-square)  
   **技术栈**：C / Python  
   **功能**：获取希沃 PASSWORDV3 / LockPasswordV3 管理员与锁屏密码。  
   **特点**：适用于 V3 算法。  
@@ -60,6 +65,7 @@
 
 - [Seewo_Assistant_Password_Recovery_Tool_V2](https://github.com/zhy8388608/Seewo_Assistant_Password_Recovery_Tool_V2)
 
+  ![Stars](https://img.shields.io/github/stars/zhy8388608/Seewo_Assistant_Password_Recovery_Tool_V2?style=flat-square) ![Last Commit](https://img.shields.io/github/last-commit/zhy8388608/Seewo_Assistant_Password_Recovery_Tool_V2?style=flat-square)  
   **技术栈**：Web、Python  
   **功能**：V2 希沃管家密码计算工具。  
   **特点**：支持本地密码和激活码 V2 版本的相关操作。  
@@ -67,6 +73,7 @@
 
 - [Seewo-Activation-Code-Calculator](https://github.com/f4bb0/Seewo-Activation-Code-Calculator)
 
+  ![Stars](https://img.shields.io/github/stars/f4bb0/Seewo-Activation-Code-Calculator?style=flat-square) ![Last Commit](https://img.shields.io/github/last-commit/f4bb0/Seewo-Activation-Code-Calculator?style=flat-square)  
   **技术栈**：JavaScript  
   **功能**：V2 激活码扫描/计算工具，用于生成或解析希沃锁屏激活码。  
   **特点**：支持激活码 V2 版本的解析与生成。  
@@ -74,20 +81,15 @@
 
 - [SeewoActivationTool](https://github.com/la-1314/SeewoActivationTool)
 
+  ![Stars](https://img.shields.io/github/stars/la-1314/SeewoActivationTool?style=flat-square) ![Last Commit](https://img.shields.io/github/last-commit/la-1314/SeewoActivationTool?style=flat-square)  
   **技术栈**：Kotlin  
   **功能**：扫码或从相册识别希沃锁屏二维码，解析参数并计算 V2 激活码。  
   **特点**：Android 端工具。  
   **许可证**：未知
 
-- [seewo-obstructor](https://github.com/std-external/seewo-obstructor)
-
-  **技术栈**：C++（DLL 注入）  
-  **功能**：数据提取、上报拦截伪造、截图/摄像头拦截、解除冰点还原等。  
-  **特点**：可读取明文数据，但某些操作可能导致崩溃；可用但稳定性一般。  
-  **许可证**：AGPL-3.0
-
 - [swfrztool](https://github.com/XSere/swfrztool)
 
+  ![Stars](https://img.shields.io/github/stars/XSere/swfrztool?style=flat-square) ![Last Commit](https://img.shields.io/github/last-commit/XSere/swfrztool?style=flat-square)  
   **技术栈**：C（运行时内存篡改 + 内核执行流劫持）  
   **功能**：即时解除冰点还原保护、模拟冰点保护状态、白名单扇区控制等。  
   **特点**：动态解除冰点；仅适用于 Win10 x64 以上环境。  
@@ -95,15 +97,33 @@
 
 - [Seewo-Settings](https://github.com/XuexGao/Seewo-Settings)
 
+  ![Stars](https://img.shields.io/github/stars/XuexGao/Seewo-Settings?style=flat-square) ![Last Commit](https://img.shields.io/github/last-commit/XuexGao/Seewo-Settings?style=flat-square)  
   **技术栈**：C#（WinUI 3）、C++17、PowerShell  
   **功能**：WinUI 3 桌面工具集，包含虚拟摄像头、摄像头/麦克风调用提醒、防截屏保护、希沃软件管控、定时任务、一键隐藏窗口。  
   **特点**：自包含发行，无需额外运行时。  
+  **许可证**：MIT
+
+- [Let's_Go!Seewo3!](https://github.com/88514205-oss/Lets-Go-Seewo3)
+
+  ![Stars](https://img.shields.io/github/stars/88514205-oss/Lets-Go-Seewo3?style=flat-square) ![Last Commit](https://img.shields.io/github/last-commit/88514205-oss/Lets-Go-Seewo3?style=flat-square)  
+  **技术栈**：C#、Batchfile  
+  **功能**：让希沃白板 3 在 Windows 11 一体机上正常启动的极简启动器，并支持从官方 OSS 下载安装包。  
+  **特点**：解决 Win11 上白板3 卡的问题。  
+  **许可证**：MIT
+
+- [seewo-screensaver-tool](https://github.com/IPF-Sinon/seewo)
+
+  ![Stars](https://img.shields.io/github/stars/IPF-Sinon/seewo?style=flat-square) ![Last Commit](https://img.shields.io/github/last-commit/IPF-Sinon/seewo?style=flat-square)  
+  **技术栈**：JavaScript、PowerShell、HTML/CSS  
+  **功能**：注入式修改希沃管家屏保行为，提供图形配置界面与立即预览。  
+  **特点**：纯 PowerShell 实现 asar 注入，仅切断屏保关闭→锁屏的级联，不禁用云端远程锁屏与本地手动锁屏。  
   **许可证**：MIT
 
 ## 白板激活
 
 - [sw_en3_keygen](https://github.com/LIGHTENINGXGAMES/sw_en3_keygen)
 
+  ![Stars](https://img.shields.io/github/stars/LIGHTENINGXGAMES/sw_en3_keygen?style=flat-square) ![Last Commit](https://img.shields.io/github/last-commit/LIGHTENINGXGAMES/sw_en3_keygen?style=flat-square)  
   **技术栈**：Go  
   **功能**：为希沃 EasiNote3 生成激活文件 `SWAF1501.swaf`。  
   **特点**：仅供教育用途，激活旧版以保留高级功能。  
@@ -111,6 +131,7 @@
 
 - [EN3Cracker](https://github.com/HuskeyDev/EN3Cracker)
 
+  ![Stars](https://img.shields.io/github/stars/HuskeyDev/EN3Cracker?style=flat-square) ![Last Commit](https://img.shields.io/github/last-commit/HuskeyDev/EN3Cracker?style=flat-square)  
   **技术栈**：C#  
   **功能**：解除希沃白板 3 试用期限制，恢复手写识别等功能。  
   **特点**：针对官方关闭激活服务器的情况，通过修改二进制实现永久激活。  
@@ -118,6 +139,7 @@
 
 - [EasiNote-5-Crack-Tool](https://github.com/YXC-Lhy/EasiNote-5-Crack-Tool)
 
+  ![Stars](https://img.shields.io/github/stars/YXC-Lhy/EasiNote-5-Crack-Tool?style=flat-square) ![Last Commit](https://img.shields.io/github/last-commit/YXC-Lhy/EasiNote-5-Crack-Tool?style=flat-square)  
   **技术栈**：C#  
   **功能**：激活希沃白板 5 至专业版，创建免登录打开白板的快捷方式，修改启动画面。  
   **特点**：简单激活工具，需在激活前彻底关闭希沃白板。  
@@ -125,6 +147,7 @@
 
 - [TruthEasiNote5](https://github.com/yux112/TruthEasiNote5)
 
+  ![Stars](https://img.shields.io/github/stars/yux112/TruthEasiNote5?style=flat-square) ![Last Commit](https://img.shields.io/github/last-commit/yux112/TruthEasiNote5?style=flat-square)  
   **技术栈**：C#（.NET Framework）  
   **功能**：使非希沃一体机也能模拟希沃品牌一体机的启动过程。  
   **特点**：修补希沃白板5的配置文件，使用命名管道结束相关进程，启动服务与白板。  
@@ -134,6 +157,7 @@
 
 - [Seewo-Custom_Start](https://github.com/SRInternet-Studio/Seewo-Custom_Start)
 
+  ![Stars](https://img.shields.io/github/stars/SRInternet-Studio/Seewo-Custom_Start?style=flat-square) ![Last Commit](https://img.shields.io/github/last-commit/SRInternet-Studio/Seewo-Custom_Start?style=flat-square)  
   **技术栈**：Visual Basic .NET  
   **功能**：自定义希沃启动器，可将任何软件与希沃白板联动启动，替代默认启动页面。  
   **特点**：解决手动替换启动页的混乱，提供统一启动入口。  
@@ -141,15 +165,25 @@
 
 - [custom-seewo-splash-screen](https://github.com/fengyec2/custom-seewo-splash-screen)
 
+  ![Stars](https://img.shields.io/github/stars/fengyec2/custom-seewo-splash-screen?style=flat-square) ![Last Commit](https://img.shields.io/github/last-commit/fengyec2/custom-seewo-splash-screen?style=flat-square)  
   **技术栈**：Python 3.8+、PyQt6等  
   **功能**：图形化替换希沃白板 / WPS Office 启动图：预设图片、备份/还原、防止恢复。  
   **特点**：Fluent UI 设计，支持 Windows/Linux。  
   **许可证**：GPL-3.0
 
+- [Easinote5-RandomStartup](https://github.com/Mooncyer/Easinote5-RandomStartup)
+
+  ![Stars](https://img.shields.io/github/stars/Mooncyer/Easinote5-RandomStartup?style=flat-square) ![Last Commit](https://img.shields.io/github/last-commit/Mooncyer/Easinote5-RandomStartup?style=flat-square)  
+  **技术栈**：C#、PowerShell、Batchfile  
+  **功能**：希沃白板 5 随机启动图启动器，每次启动从本地图片库随机选图替换 `SplashScreen.png` 后启动白板。  
+  **特点**：自动定位最新版白板安装目录；全程无窗口、不常驻。  
+  **许可证**：AGPL-3.0
+
 ## 监控与反监控
 
 - [SeewoMonitor](https://github.com/Mistveil-Z/SeewoMonitor)
 
+  ![Stars](https://img.shields.io/github/stars/Mistveil-Z/SeewoMonitor?style=flat-square) ![Last Commit](https://img.shields.io/github/last-commit/Mistveil-Z/SeewoMonitor?style=flat-square)  
   **技术栈**：C# (.NET)、ClassIsland Uri、系统通知  
   **功能**：检测希沃集控的监控行为，当教师发起远程桌面时，发送提醒。  
   **特点**：支持自定义检测间隔、日志输出；可与 ClassIsland 自动化集成。  
@@ -157,6 +191,7 @@
 
 - [SeewoServantLite](https://github.com/fengyec2/SeewoServantLite)
 
+  ![Stars](https://img.shields.io/github/stars/fengyec2/SeewoServantLite?style=flat-square) ![Last Commit](https://img.shields.io/github/last-commit/fengyec2/SeewoServantLite?style=flat-square)  
   **技术栈**：Python 3.9+、win32gui、websockets  
   **功能**：实时监控火绒安全弹窗，通过 Websocket 向安卓客户端发送告警，检测摄像头使用。  
   **特点**：依赖火绒的隐私保护弹窗作为检测信号。  
@@ -164,13 +199,15 @@
 
 - [NoMoreMonitor](https://github.com/lilith-is-all-you-need/NoMoreMonitor)
 
+  ![Stars](https://img.shields.io/github/stars/lilith-is-all-you-need/NoMoreMonitor?style=flat-square) ![Last Commit](https://img.shields.io/github/last-commit/lilith-is-all-you-need/NoMoreMonitor?style=flat-square)  
   **技术栈**：C、MinHook、DLL 注入  
   **功能**：Hook 希沃相关进程的 `media_framework_device.dll` 函数，拦截摄像头请求并通知用户。  
   **特点**：底层拦截，同时支持 DirectShow 和 Media Foundation；纯本地运行，无网络请求。  
   **许可证**：MIT
 
-- [NoMoreCapture](https://github.com/lilith-is-all-you-need/NoMoreCapture) / [UnSeewo](https://github.com/XuexGao/UnSeewo)
+- [NoMoreCapture](https://github.com/lilith-is-all-you-need/NoMoreCapture)
 
+  ![Stars](https://img.shields.io/github/stars/lilith-is-all-you-need/NoMoreCapture?style=flat-square) ![Last Commit](https://img.shields.io/github/last-commit/lilith-is-all-you-need/NoMoreCapture?style=flat-square)  
   **技术栈**：C、Win32 API、DLL 注入等  
   **功能**：通过跨架构 Shellcode 注入修改目标窗口显示亲和性，实现防截图/防录屏；支持 Finder Tool 动态捕获、白名单/全局模式、穿透/遮蔽模式、老板键。  
   **特点**：纯 C 编写，原生 Win32 API。  
@@ -178,6 +215,7 @@
 
 - [StarReminder](https://github.com/Vistaminc/StarReminder)
 
+  ![Stars](https://img.shields.io/github/stars/Vistaminc/StarReminder?style=flat-square) ![Last Commit](https://img.shields.io/github/last-commit/Vistaminc/StarReminder?style=flat-square)  
   **技术栈**：C# (.NET 8, WPF)  
   **功能**：监控摄像头/麦克风使用，提供 Defender 风格通知、Toast、持续水印提醒。  
   **特点**：从设备层面检测，现代化 WPF 界面。  
@@ -187,6 +225,7 @@
 
 - [SeewoMCUController](https://github.com/CreeperAWA/SeewoMCUController)
 
+  ![Stars](https://img.shields.io/github/stars/CreeperAWA/SeewoMCUController?style=flat-square) ![Last Commit](https://img.shields.io/github/last-commit/CreeperAWA/SeewoMCUController?style=flat-square)  
   **技术栈**：C#（.NET 8，Native AOT）  
   **功能**：Windows CLI/TUI 工具，通过 HID 连接并控制适用 Remote6 的希沃 OPS 与安卓板控制单元（不支持使用 UDI 的机型）；支持音量/声音模式/显示模式/通道切换、Android 锁屏与口令应答、设备信息查询、系统动作和原始帧发送。  
   **特点**：不修改系统配置、不后台常驻；支持 HID 设备发现、握手、帧模式自动探测、自动应答和重连。锁屏功能会触发 Android 屏幕锁，使用时需谨慎。  
@@ -194,6 +233,7 @@
 
 - [SeewoPenTweaker](https://github.com/hxabcd/SeewoPenTweaker)
 
+  ![Stars](https://img.shields.io/github/stars/hxabcd/SeewoPenTweaker?style=flat-square) ![Last Commit](https://img.shields.io/github/last-commit/hxabcd/SeewoPenTweaker?style=flat-square)  
   **技术栈**：C++、原生 Win32 API  
   **功能**：响应希沃翻页笔 AI 键的 Ctrl+Shift+Alt+P/Q 组合，模拟鼠标操作，可配置延时。  
   **特点**：低体积、低占用、启动快。  
@@ -201,6 +241,7 @@
 
 - [EasiCamera-patch](https://github.com/hongkevin233/EasiCamera-patch)
 
+  ![Stars](https://img.shields.io/github/stars/hongkevin233/EasiCamera-patch?style=flat-square) ![Last Commit](https://img.shields.io/github/last-commit/hongkevin233/EasiCamera-patch?style=flat-square)  
   **技术栈**：PowerShell、Python等  
   **功能**：解除希沃视频展台的设备白名单校验，通过 IL 补丁与 AkVCam 虚拟摄像头桥接，让第三方 USB 摄像头/展台在 DirectShow 下可用。  
   **特点**：ffmpeg → AkVCam 零拷贝管道，无中间文件、无二次编码。  
@@ -208,6 +249,7 @@
 
 - [DeviceTrayMgr](https://github.com/howdy213/DeviceTrayMgr)
 
+  ![Stars](https://img.shields.io/github/stars/howdy213/DeviceTrayMgr?style=flat-square) ![Last Commit](https://img.shields.io/github/last-commit/howdy213/DeviceTrayMgr?style=flat-square)  
   **技术栈**：C++  
   **功能**：通过 `DeviceOverrides` 注册表为指定 USB 设备写入 `Removable=1`，禁用「安全删除硬件并弹出媒体」托盘菜单中的对应选项。  
   **特点**：命令行菜单操作；支持枚举 USB 设备、网络适配器类 USB 设备；支持管理已设置的注册表项。  
@@ -215,6 +257,7 @@
 
 - [DeviceKeeper](https://github.com/Levent628/DeviceKeeper)
 
+  ![Stars](https://img.shields.io/github/stars/Levent628/DeviceKeeper?style=flat-square) ![Last Commit](https://img.shields.io/github/last-commit/Levent628/DeviceKeeper?style=flat-square)  
   **技术栈**：JavaScript、Node.js、HTML、C#、Batchfile  
   **功能**：修改 USB 设备 `Capabilities` 注册表值，把内置 USB 网卡、USB 集线器等从任务栏「安全删除硬件」中隐藏，并持续守护防止系统写回。  
   **特点**：便携自带 `node.exe`；本地 Web UI；5 秒守护循环。  
@@ -224,6 +267,7 @@
 
 - [SeewoPan](https://github.com/PANDAJSR/SeewoPan)
 
+  ![Stars](https://img.shields.io/github/stars/PANDAJSR/SeewoPan?style=flat-square) ![Last Commit](https://img.shields.io/github/last-commit/PANDAJSR/SeewoPan?style=flat-square)  
   **技术栈**：Flutter、Node.js  
   **功能**：希沃品课云盘第三方客户端，支持文件管理、上传下载队列、文件预览、分享链接。  
   **特点**：可挂载为系统 WebDAV 目录；包含命令行工具用于自动化。  
@@ -231,6 +275,7 @@
 
 - [Seewo-DesktopAnnotation-Replacement](https://github.com/EmerMine/Seewo-DesktopAnnotation-Replacement)
 
+  ![Stars](https://img.shields.io/github/stars/EmerMine/Seewo-DesktopAnnotation-Replacement?style=flat-square) ![Last Commit](https://img.shields.io/github/last-commit/EmerMine/Seewo-DesktopAnnotation-Replacement?style=flat-square)  
   **技术栈**：Python、PySide6  
   **功能**：将希沃桌面 2.0+ 自带的桌面批注程序替换为第三方批注软件。  
   **特点**：直接替换批注文件，提供参数用于设置和调试。  
@@ -238,12 +283,14 @@
 
 - [seewo-img-down](https://github.com/yuyudifiesh/seewo-img-down)
 
+  ![Stars](https://img.shields.io/github/stars/yuyudifiesh/seewo-img-down?style=flat-square) ![Last Commit](https://img.shields.io/github/last-commit/yuyudifiesh/seewo-img-down?style=flat-square)  
   **技术栈**：HTML  
   **功能**：希沃系统镜像下载站，提供 MT61A、MT21、MT23 等机型的系统镜像。  
   **许可证**：未知
 
 - [seewo-badapple](https://github.com/POPK406/seewo-badapple)
 
+  ![Stars](https://img.shields.io/github/stars/POPK406/seewo-badapple?style=flat-square) ![Last Commit](https://img.shields.io/github/last-commit/POPK406/seewo-badapple?style=flat-square)  
   **技术栈**：Python、Batchfile  
   **功能**：将 `BADAPPLE.mp4` 离线转换为笔画流，在希沃 EasiNote5 白板上以笔迹形式实时重放，并同步音轨。  
   **特点**：支持 Win32 `SendInput` 软件鼠标注入（无需外设）与 CH9326 串口透传；含 tkinter 控台、画布标定、离线可视化。  
@@ -253,6 +300,7 @@
 
 - [SeewoAutoLogin（独立版）](https://github.com/Pro-Qin/SeewoAutoLogin)
 
+  ![Stars](https://img.shields.io/github/stars/Pro-Qin/SeewoAutoLogin?style=flat-square) ![Last Commit](https://img.shields.io/github/last-commit/Pro-Qin/SeewoAutoLogin?style=flat-square)  
   **技术栈**：C# (.NET 8, WPF)、WebView2、Inno Setup  
   **功能**：多希沃账号管理（密码/扫码登录）、本地 SSO 网关、账号列表轮换、自动刷新令牌、一键切换账号。  
   **特点**：独立安装包；账号密码与扫码令牌使用 DPAPI 加密。  
@@ -260,6 +308,7 @@
 
 - [SeewoAutoLogin（ICC-CE 插件版）](https://github.com/CJKmkp/SeewoAutoLogin)
 
+  ![Stars](https://img.shields.io/github/stars/CJKmkp/SeewoAutoLogin?style=flat-square) ![Last Commit](https://img.shields.io/github/last-commit/CJKmkp/SeewoAutoLogin?style=flat-square)  
   **技术栈**：C# (.NET 6)、ICC-CE 插件 SDK  
   **功能**：在 ICC-CE 插件中管理希沃账号，支持密码/扫码登录，本地 SSO 网关，用户列表轮换。  
   **特点**：专为 ICC-CE 设计，安装为 `.icpx` 包；配置存储于插件目录，令牌本地加密。  
@@ -267,6 +316,7 @@
 
 - [ENAL-rs](https://github.com/xiaofeiTM233/ENAL)
 
+  ![Stars](https://img.shields.io/github/stars/xiaofeiTM233/ENAL?style=flat-square) ![Last Commit](https://img.shields.io/github/last-commit/xiaofeiTM233/ENAL?style=flat-square)  
   **技术栈**：Rust、Axum、Tokio、AES-256-GCM、Next.js 16  
   **功能**：希沃账号管理与 SSO 代理服务，支持账密/扫码/令牌登录，自动续期令牌。  
   **特点**：跨平台（Win/Linux/macOS），单文件静默运行，数据不落明文。  
@@ -274,6 +324,7 @@
 
 - [EasiAuto](https://github.com/hxabcd/EasiAuto)
 
+  ![Stars](https://img.shields.io/github/stars/hxabcd/EasiAuto?style=flat-square) ![Last Commit](https://img.shields.io/github/last-commit/hxabcd/EasiAuto?style=flat-square)  
   **技术栈**：Python、PySide6  
   **功能**：自动登录希沃白板，支持四种登录方案，可配合 ClassIsland 实现定时自动登录。  
   **特点**：界面友好，配置简单；推荐与 ClassIsland 联动实现全自动登录。  
@@ -283,6 +334,7 @@
 
 - [WebEasiNote](https://github.com/PANDAJSR/WebEasiNote)
 
+  ![Stars](https://img.shields.io/github/stars/PANDAJSR/WebEasiNote?style=flat-square) ![Last Commit](https://img.shields.io/github/last-commit/PANDAJSR/WebEasiNote?style=flat-square)  
   **技术栈**：React 18、TypeScript 5、Vite 5、Electron  
   **功能**：第三方 ENBX 课件查看器，在浏览器中解析和查看希沃白板课件内容，支持 Electron 桌面版。  
   **特点**：纯 Web 技术实现；支持 Windows/macOS/Linux 桌面打包。  
@@ -290,6 +342,7 @@
 
 - [ENAnalyzer](https://github.com/howdy213/ENAnalyzer)
 
+  ![Stars](https://img.shields.io/github/stars/howdy213/ENAnalyzer?style=flat-square) ![Last Commit](https://img.shields.io/github/last-commit/howdy213/ENAnalyzer?style=flat-square)  
   **技术栈**：Python、wxPython  
   **功能**：希沃白板课件自动打包，扫描本地数据目录、自动转存、缓存清理、禁用部分白板功能。  
   **特点**：支持按账户分文件夹输出，后台静默运行（系统托盘）。  
@@ -297,6 +350,7 @@
 
 - [seewo-enbx-toolkit](https://github.com/xcw080720/seewo-enbx-toolkit)
 
+  ![Stars](https://img.shields.io/github/stars/xcw080720/seewo-enbx-toolkit?style=flat-square) ![Last Commit](https://img.shields.io/github/last-commit/xcw080720/seewo-enbx-toolkit?style=flat-square)  
   **技术栈**：Python、tkinter等  
   **功能**：驱动 EasiNote 批量导入 pptx 生成 enbx 文件。  
   **特点**：支持 GUI/CLI、断点续跑、多账户自动探测；只读希沃课件目录，不修改希沃程序或原始数据。  
@@ -304,6 +358,7 @@
 
 - [seewo-ppt-factory](https://github.com/Awen-xin/seewo-ppt-factory)
 
+  ![Stars](https://img.shields.io/github/stars/Awen-xin/seewo-ppt-factory?style=flat-square) ![Last Commit](https://img.shields.io/github/last-commit/Awen-xin/seewo-ppt-factory?style=flat-square)  
   **技术栈**：Python、PowerShell、Batchfile  
   **功能**：把「简报 JSON」端到端做成可上云的希沃白板原生课件（.enbx），覆盖落稿、插教学视频、分组、注动效、发布上云和逐页核验。  
   **特点**：补齐官方技能缺少的像素坐标版式、插视频、动效和副本治理；依赖官方 `seewo-easinote-assistant-skill` 与已登录的希沃白板客户端；发布前扫描云端同名旧副本并选择性清理，避免副本堆积。  
@@ -311,6 +366,7 @@
 
 - [cracked-ppt-helper](https://github.com/wcrax/cracked-ppt-helper)
 
+  ![Stars](https://img.shields.io/github/stars/wcrax/cracked-ppt-helper?style=flat-square) ![Last Commit](https://img.shields.io/github/last-commit/wcrax/cracked-ppt-helper?style=flat-square)  
   **技术栈**：C#  
   **功能**：破解并改进希沃 PPT 助手（Seewo PPT Helper）。  
   **特点**：暂无。  
@@ -320,6 +376,7 @@
 
 - [seewo-tutorial-web](https://github.com/seewo-geek/seewo-tutorial-web)
 
+  ![Stars](https://img.shields.io/github/stars/seewo-geek/seewo-tutorial-web?style=flat-square) ![Last Commit](https://img.shields.io/github/last-commit/seewo-geek/seewo-tutorial-web?style=flat-square)  
   **技术栈**：Web  
   **功能**：电教委入门指南网页版，面向学校电教管理员的希沃设备使用与维护教程。  
   **特点**：由“希沃售后业绩冲击部”维护，电教委入门指南网站的源码仓库。  
@@ -327,6 +384,7 @@
 
 - [SeewoOperationGuide-Online](https://github.com/baldi233/SeewoOperationGuide-Online)
 
+  ![Stars](https://img.shields.io/github/stars/baldi233/SeewoOperationGuide-Online?style=flat-square) ![Last Commit](https://img.shields.io/github/last-commit/baldi233/SeewoOperationGuide-Online?style=flat-square)  
   **技术栈**：HTML、CSS、JavaScript  
   **功能**：搬运 / 存档希沃 Android 系统「操作指南」应用内的内容，提供在线查看。  
   **特点**：内容原样搬运；GitHub Pages 部署。  
