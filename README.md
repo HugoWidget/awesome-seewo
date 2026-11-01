@@ -13,6 +13,7 @@
 ## 目录
 
 - [优化与管理](#优化与管理)
+- [管家密码与锁屏激活码](#管家密码与锁屏激活码)
 - [白板激活](#白板激活)
 - [定制与美化](#定制与美化)
 - [监控与反监控](#监控与反监控)
@@ -22,8 +23,6 @@
 - [课件管理](#课件管理)
 - [教程与指南](#教程与指南)
 - [更多合集](#更多合集)
-
----
 
 ## 优化与管理
 
@@ -38,6 +37,48 @@
 
   **特点**：另一个独立的 C/C++ 希沃优化方案，使用便捷，相关资源暂未开放。  
   **许可证**：MIT
+
+- [swfrztool](https://github.com/XSere/swfrztool)
+
+  ![Stars](https://img.shields.io/github/stars/XSere/swfrztool?style=flat-square) ![Last Commit](https://img.shields.io/github/last-commit/XSere/swfrztool?style=flat-square)  
+  **技术栈**：C（运行时内存篡改 + 内核执行流劫持）  
+  **功能**：即时解除冰点还原保护、模拟冰点保护状态、白名单扇区控制等。  
+  **特点**：动态解除冰点；仅适用于 Win10 x64 以上环境。  
+  **许可证**：AGPL-3.0
+
+- [Seewo-Settings](https://github.com/XuexGao/Seewo-Settings)
+
+  ![Stars](https://img.shields.io/github/stars/XuexGao/Seewo-Settings?style=flat-square) ![Last Commit](https://img.shields.io/github/last-commit/XuexGao/Seewo-Settings?style=flat-square)  
+  **技术栈**：C#（WinUI 3）、C++17、PowerShell  
+  **功能**：WinUI 3 桌面工具集，包含虚拟摄像头、摄像头/麦克风调用提醒、防截屏保护、希沃软件管控、定时任务、一键隐藏窗口。  
+  **特点**：自包含发行，无需额外运行时。  
+  **许可证**：MIT
+
+- [Let's_Go!Seewo3!](https://github.com/88514205-oss/Lets-Go-Seewo3)
+
+  ![Stars](https://img.shields.io/github/stars/88514205-oss/Lets-Go-Seewo3?style=flat-square) ![Last Commit](https://img.shields.io/github/last-commit/88514205-oss/Lets-Go-Seewo3?style=flat-square)  
+  **技术栈**：C#、Batchfile  
+  **功能**：让希沃白板 3 在 Windows 11 一体机上正常启动的极简启动器，并支持从官方 OSS 下载安装包。  
+  **特点**：解决 Win11 上白板3 卡的问题。  
+  **许可证**：MIT
+
+- [seewo-screensaver-tool](https://github.com/IPF-Sinon/seewo)
+
+  ![Stars](https://img.shields.io/github/stars/IPF-Sinon/seewo?style=flat-square) ![Last Commit](https://img.shields.io/github/last-commit/IPF-Sinon/seewo?style=flat-square)  
+  **技术栈**：JavaScript、PowerShell、Rust、HTML/CSS、Batchfile  
+  **功能**：注入式修改希沃管家屏保行为，提供图形配置界面与立即预览；支持单文件 exe（无需 Node.js）、安全模式自动安装、系统浏览器全屏 kiosk 与悬浮退出按钮。  
+  **特点**：纯 PowerShell 重写 asar 注入；仅切断“屏保关闭→锁屏”的级联，不禁用云端远程锁屏与本地手动锁屏；提供安装/卸载/配置脚本。  
+  **许可证**：MIT
+
+- [Seewo-Update](https://github.com/beibing173/Seewo-Update)
+
+  ![Stars](https://img.shields.io/github/stars/beibing173/Seewo-Update?style=flat-square) ![Last Commit](https://img.shields.io/github/last-commit/beibing173/Seewo-Update?style=flat-square)  
+  **技术栈**：C#（.NET 8）  
+  **功能**：常驻系统托盘，开机自启后检查希沃白板 5 更新；读取注册表版本，解析官方下载地址 302 跳转获取最新版本，后台下载并使用 NSIS `/S` 静默安装。  
+  **特点**：不修改希沃白板文件，只调用官方下载地址与官方安装包；仅处理已安装的白板 5；托盘提示、日志保留 7 天、计划任务开机自启免 UAC。  
+  **许可证**：Apache-2.0
+
+## 管家密码与锁屏激活码
 
 - [HugoPass-Install](https://github.com/rabbits0209/HugoPass-Install)
 
@@ -87,38 +128,6 @@
   **特点**：Android 端工具。  
   **许可证**：未知
 
-- [swfrztool](https://github.com/XSere/swfrztool)
-
-  ![Stars](https://img.shields.io/github/stars/XSere/swfrztool?style=flat-square) ![Last Commit](https://img.shields.io/github/last-commit/XSere/swfrztool?style=flat-square)  
-  **技术栈**：C（运行时内存篡改 + 内核执行流劫持）  
-  **功能**：即时解除冰点还原保护、模拟冰点保护状态、白名单扇区控制等。  
-  **特点**：动态解除冰点；仅适用于 Win10 x64 以上环境。  
-  **许可证**：AGPL-3.0
-
-- [Seewo-Settings](https://github.com/XuexGao/Seewo-Settings)
-
-  ![Stars](https://img.shields.io/github/stars/XuexGao/Seewo-Settings?style=flat-square) ![Last Commit](https://img.shields.io/github/last-commit/XuexGao/Seewo-Settings?style=flat-square)  
-  **技术栈**：C#（WinUI 3）、C++17、PowerShell  
-  **功能**：WinUI 3 桌面工具集，包含虚拟摄像头、摄像头/麦克风调用提醒、防截屏保护、希沃软件管控、定时任务、一键隐藏窗口。  
-  **特点**：自包含发行，无需额外运行时。  
-  **许可证**：MIT
-
-- [Let's_Go!Seewo3!](https://github.com/88514205-oss/Lets-Go-Seewo3)
-
-  ![Stars](https://img.shields.io/github/stars/88514205-oss/Lets-Go-Seewo3?style=flat-square) ![Last Commit](https://img.shields.io/github/last-commit/88514205-oss/Lets-Go-Seewo3?style=flat-square)  
-  **技术栈**：C#、Batchfile  
-  **功能**：让希沃白板 3 在 Windows 11 一体机上正常启动的极简启动器，并支持从官方 OSS 下载安装包。  
-  **特点**：解决 Win11 上白板3 卡的问题。  
-  **许可证**：MIT
-
-- [seewo-screensaver-tool](https://github.com/IPF-Sinon/seewo)
-
-  ![Stars](https://img.shields.io/github/stars/IPF-Sinon/seewo?style=flat-square) ![Last Commit](https://img.shields.io/github/last-commit/IPF-Sinon/seewo?style=flat-square)  
-  **技术栈**：JavaScript、PowerShell、HTML/CSS  
-  **功能**：注入式修改希沃管家屏保行为，提供图形配置界面与立即预览。  
-  **特点**：纯 PowerShell 实现 asar 注入，仅切断屏保关闭→锁屏的级联，不禁用云端远程锁屏与本地手动锁屏。  
-  **许可证**：MIT
-
 ## 白板激活
 
 - [sw_en3_keygen](https://github.com/LIGHTENINGXGAMES/sw_en3_keygen)
@@ -133,8 +142,8 @@
 
   ![Stars](https://img.shields.io/github/stars/HuskeyDev/EN3Cracker?style=flat-square) ![Last Commit](https://img.shields.io/github/last-commit/HuskeyDev/EN3Cracker?style=flat-square)  
   **技术栈**：C#  
-  **功能**：解除希沃白板 3 试用期限制，恢复手写识别等功能。  
-  **特点**：针对官方关闭激活服务器的情况，通过修改二进制实现永久激活。  
+  **功能**：解除希沃白板 3 的 15 天试用期限制，恢复手写识别等功能；新增对希沃白板 2（希沃白板 2013）的支持。  
+  **特点**：通过逆向修改激活组件，使其在被调用时始终返回已激活状态；不提供希沃白板本体源代码。  
   **许可证**：MIT
 
 - [EasiNote-5-Crack-Tool](https://github.com/YXC-Lhy/EasiNote-5-Crack-Tool)
@@ -263,6 +272,22 @@
   **特点**：便携自带 `node.exe`；本地 Web UI；5 秒守护循环。  
   **许可证**：MIT
 
+- [ChangeSideBoot](https://github.com/XIHE-XUAN/ChangeSideBoot)
+
+  ![Stars](https://img.shields.io/github/stars/XIHE-XUAN/ChangeSideBoot?style=flat-square) ![Last Commit](https://img.shields.io/github/last-commit/XIHE-XUAN/ChangeSideBoot?style=flat-square)  
+  **技术栈**：C#  
+  **功能**：用于替换希沃白板“视频展台”按钮所启动程序的工具。  
+  **特点**：需编译源码后以管理员身份运行；作者注明未经过完全测试。  
+  **许可证**：MIT
+
+- [MicPowerBank](https://github.com/jin-ct/MicPowerBank)
+
+  ![Stars](https://img.shields.io/github/stars/jin-ct/MicPowerBank?style=flat-square) ![Last Commit](https://img.shields.io/github/last-commit/jin-ct/MicPowerBank?style=flat-square)  
+  **技术栈**：C++（ATtiny84A）  
+  **功能**：为希沃无线麦克风设计的自动补电仓，减少手动充电次数，缓解应急情况下电量低的问题。  
+  **特点**：包含硬件与电路图；主控程序由 DeepSeek-V4-Flash + Codex 编写。  
+  **许可证**：未知
+
 ## 工具与辅助
 
 - [SeewoPan](https://github.com/PANDAJSR/SeewoPan)
@@ -294,6 +319,14 @@
   **技术栈**：Python、Batchfile  
   **功能**：将 `BADAPPLE.mp4` 离线转换为笔画流，在希沃 EasiNote5 白板上以笔迹形式实时重放，并同步音轨。  
   **特点**：支持 Win32 `SendInput` 软件鼠标注入（无需外设）与 CH9326 串口透传；含 tkinter 控台、画布标定、离线可视化。  
+  **许可证**：MIT
+
+- [yunban-dsh-bridge](https://github.com/cuikanghui/yunban-dsh-bridge)
+
+  ![Stars](https://img.shields.io/github/stars/cuikanghui/yunban-dsh-bridge?style=flat-square) ![Last Commit](https://img.shields.io/github/last-commit/cuikanghui/yunban-dsh-bridge?style=flat-square)  
+  **技术栈**：JavaScript、PowerShell、Batchfile  
+  **功能**：轮询希沃云班班牌上的家长留言，交给本机 DeepSeek Harness 生成回答并回发云班；支持消息判重、回溯补发、暂停桥接与五段回路自检。  
+  **特点**：全程本机运行，仅托盘图标；登录态只存本地；项目由 AI 生成，投入生产前需自行复核关键逻辑。  
   **许可证**：MIT
 
 ## 账号与登录
@@ -328,6 +361,22 @@
   **技术栈**：Python、PySide6  
   **功能**：自动登录希沃白板，支持四种登录方案，可配合 ClassIsland 实现定时自动登录。  
   **特点**：界面友好，配置简单；推荐与 ClassIsland 联动实现全自动登录。  
+  **许可证**：GPL-3.0
+
+- [EasiLoginer](https://github.com/SurinChi/Easiloginer)
+
+  ![Stars](https://img.shields.io/github/stars/SurinChi/Easiloginer?style=flat-square) ![Last Commit](https://img.shields.io/github/last-commit/SurinChi/Easiloginer?style=flat-square)  
+  **技术栈**：C#（.NET 10）  
+  **功能**：EasiAuto 的 C# 重构项目，用于手动触发希沃白板自动登录；支持固定位置、UI Automation、图像识别与令牌投递，并提供自解压安装向导。  
+  **特点**：不支持 ClassIsland，登录仅由用户在应用内、命令行或快捷方式手动触发；包含数据保留清理策略与完整测试。  
+  **许可证**：GPL-3.0
+
+- [SeewoQuickLogin](https://github.com/Kanyi40/SeewoQuickLogin)
+
+  ![Stars](https://img.shields.io/github/stars/Kanyi40/SeewoQuickLogin?style=flat-square) ![Last Commit](https://img.shields.io/github/last-commit/Kanyi40/SeewoQuickLogin?style=flat-square)  
+  **技术栈**：C#（.NET 8、ClassIsland 2.x 插件）  
+  **功能**：在 ClassIsland 中管理希沃账号，通过本地 SSO 网关 `127.0.0.1:24300` 为希沃白板提供快捷登录；支持账号密码 DPAPI 加密、自动获取昵称头像、登录失败分类与 60 秒冷却。  
+  **特点**：需在 hosts 中添加 `127.0.0.1 local.id.seewo.com`；建议以管理员身份运行 ClassIsland 以稳定持有端口。  
   **许可证**：GPL-3.0
 
 ## 课件管理
@@ -371,6 +420,22 @@
   **功能**：破解并改进希沃 PPT 助手（Seewo PPT Helper）。  
   **特点**：暂无。  
   **许可证**：未知
+
+- [EasiPlugin.WebView2](https://github.com/mcitem/EasiPlugin.WebView2)
+
+  ![Stars](https://img.shields.io/github/stars/mcitem/EasiPlugin.WebView2?style=flat-square) ![Last Commit](https://img.shields.io/github/last-commit/mcitem/EasiPlugin.WebView2?style=flat-square)  
+  **技术栈**：C#、PowerShell、JavaScript、HTML/CSS  
+  **功能**：在希沃白板中嵌入 WebView2，直接在页面内运行网页和离线 HTML；离线 HTML 与缩略图随课件保存，支持鼠标/触控/键盘输入、元素缩放、预加载、后台挂起、刷新、静音与禁用交互。  
+  **特点**：每台设备需安装插件和 Microsoft WebView2 Runtime；项目由 AI 生成，使用前建议复核。  
+  **许可证**：MIT
+
+- [EasiPlugin.MetaDataEditer](https://github.com/mcitem/EasiPlugin.MetaDataEditer)
+
+  ![Stars](https://img.shields.io/github/stars/mcitem/EasiPlugin.MetaDataEditer?style=flat-square) ![Last Commit](https://img.shields.io/github/last-commit/mcitem/EasiPlugin.MetaDataEditer?style=flat-square)  
+  **技术栈**：C#  
+  **功能**：查看和编辑希沃白板课件元素的元数据；在备课模式选中元素后右键“编辑元素元数据”，保存更改并保存课件。  
+  **特点**：项目由 AI 生成，使用前建议复核。  
+  **许可证**：MIT
 
 ## 教程与指南
 
