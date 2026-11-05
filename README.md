@@ -62,7 +62,7 @@
   **特点**：解决 Win11 上白板3 卡的问题。  
   **许可证**：MIT
 
-- [seewo-screensaver-tool](https://github.com/IPF-Sinon/seewo)
+- [seewo-screensaver-tool](https://github.com/IPF-Sinon/seewo-screensaver-tool)
 
   ![Stars](https://img.shields.io/github/stars/IPF-Sinon/seewo?style=flat-square) ![Last Commit](https://img.shields.io/github/last-commit/IPF-Sinon/seewo?style=flat-square)  
   **技术栈**：JavaScript、PowerShell、Rust、HTML/CSS、Batchfile  
