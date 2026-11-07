@@ -46,6 +46,14 @@
   **特点**：动态解除冰点；仅适用于 Win10 x64 以上环境。  
   **许可证**：AGPL-3.0
 
+- [swfrztool-next](https://github.com/XSere/swfrztool-next)
+
+  ![Stars](https://img.shields.io/github/stars/XSere/swfrztool-next?style=flat-square) ![Last Commit](https://img.shields.io/github/last-commit/XSere/swfrztool-next?style=flat-square)  
+  **技术栈**：C++17、Win32、Direct2D/DirectWrite  
+  **功能**：冰点还原控制工具重构版：冰点配置、配置伪装、白名单管理、实时保护状态切换等。  
+  **特点**：友好 UI，功能较上一班更全面。  
+  **许可证**：MIT
+
 - [Seewo-Settings](https://github.com/XuexGao/Seewo-Settings)
 
   ![Stars](https://img.shields.io/github/stars/XuexGao/Seewo-Settings?style=flat-square) ![Last Commit](https://img.shields.io/github/last-commit/XuexGao/Seewo-Settings?style=flat-square)  
@@ -62,11 +70,11 @@
   **特点**：解决 Win11 上白板3 卡的问题。  
   **许可证**：MIT
 
-- [seewo-screensaver-tool](https://github.com/IPF-Sinon/seewo)
+- [seewo-screensaver-tool](https://github.com/IPF-Sinon/seewo-screensaver-tool)
 
-  ![Stars](https://img.shields.io/github/stars/IPF-Sinon/seewo?style=flat-square) ![Last Commit](https://img.shields.io/github/last-commit/IPF-Sinon/seewo?style=flat-square)  
+  ![Stars](https://img.shields.io/github/stars/IPF-Sinon/seewo-screensaver-tool?style=flat-square) ![Last Commit](https://img.shields.io/github/last-commit/IPF-Sinon/seewo-screensaver-tool?style=flat-square)  
   **技术栈**：JavaScript、PowerShell、Rust、HTML/CSS、Batchfile  
-  **功能**：注入式修改希沃管家屏保行为，提供图形配置界面与立即预览；支持单文件 exe（无需 Node.js）、安全模式自动安装、系统浏览器全屏 kiosk 与悬浮退出按钮。  
+  **功能**：注入式修改希沃管家屏保行为。  
   **特点**：纯 PowerShell 重写 asar 注入；仅切断“屏保关闭→锁屏”的级联，不禁用云端远程锁屏与本地手动锁屏；提供安装/卸载/配置脚本。  
   **许可证**：MIT
 
@@ -288,6 +296,14 @@
   **特点**：包含硬件与电路图；主控程序由 DeepSeek-V4-Flash + Codex 编写。  
   **许可证**：未知
 
+- [xp34a-data-del](https://github.com/ZZC-jeizuchin/xp34a-data-del)
+
+  ![Stars](https://img.shields.io/github/stars/ZZC-jeizuchin/xp34a-data-del?style=flat-square) ![Last Commit](https://img.shields.io/github/last-commit/ZZC-jeizuchin/xp34a-data-del?style=flat-square)  
+  **技术栈**：PowerShell、xfel（FEL)、eMMC  
+  **功能**：清空希沃 XP34A 学习平板的 userdata 分区并读回校验；通过 FEL 直接对 eMMC 发 CMD38 SECURE ERASE。  
+  **特点**：默认 DRY-RUN，需显式 `-Execute` 才写入；硬编码安全检查；提供独立只读校验脚本。  
+  **许可证**：MIT
+
 ## 工具与辅助
 
 - [SeewoPan](https://github.com/PANDAJSR/SeewoPan)
@@ -320,6 +336,14 @@
   **功能**：将 `BADAPPLE.mp4` 离线转换为笔画流，在希沃 EasiNote5 白板上以笔迹形式实时重放，并同步音轨。  
   **特点**：支持 Win32 `SendInput` 软件鼠标注入（无需外设）与 CH9326 串口透传；含 tkinter 控台、画布标定、离线可视化。  
   **许可证**：MIT
+
+- [BoardMark](https://github.com/caitoUSB/BoardMark)
+
+  ![Stars](https://img.shields.io/github/stars/caitoUSB/BoardMark?style=flat-square) ![Last Commit](https://img.shields.io/github/last-commit/caitoUSB/BoardMark?style=flat-square)  
+  **技术栈**：C++、Qt 6  
+  **功能**：常驻托盘的课堂板书自动记录工具：屏幕采集 + 关键帧判定，板书发生实质变化时保存整屏；可选 AI 视觉模型判学科。  
+  **特点**：内置希沃白板 5 / 希沃轻白板 / 鸿合支持，其他白板可手动指定进程；事件驱动采样；输出原始 PNG，只写一次。  
+  **许可证**：AGPL-3.0
 
 - [yunban-dsh-bridge](https://github.com/cuikanghui/yunban-dsh-bridge)
 
@@ -366,9 +390,9 @@
 - [EasiLoginer](https://github.com/SurinChi/Easiloginer)
 
   ![Stars](https://img.shields.io/github/stars/SurinChi/Easiloginer?style=flat-square) ![Last Commit](https://img.shields.io/github/last-commit/SurinChi/Easiloginer?style=flat-square)  
-  **技术栈**：C#（.NET 10）  
+  **技术栈**：C#（.NET 10)  
   **功能**：EasiAuto 的 C# 重构项目，用于手动触发希沃白板自动登录；支持固定位置、UI Automation、图像识别与令牌投递，并提供自解压安装向导。  
-  **特点**：不支持 ClassIsland，登录仅由用户在应用内、命令行或快捷方式手动触发；包含数据保留清理策略与完整测试。  
+  **特点**：不驻留后台、不监视进程和文件；不支持 ClassIsland，登录仅由用户在应用内、命令行或快捷方式手动触发。  
   **许可证**：GPL-3.0
 
 - [SeewoQuickLogin](https://github.com/Kanyi40/SeewoQuickLogin)
